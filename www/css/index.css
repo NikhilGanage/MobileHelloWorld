@@ -1,0 +1,37 @@
+body{
+	background-color:#ECECEC;
+	height:100%;
+	width:100%;
+	font-size:12px;
+	text-transform:uppercase;
+}
+.app{
+	background:url(../img/yagna_logo.png) no-repeat center top;
+	position:absolute;
+	left:50%;
+	top:50%;
+	height:80px;
+	width:250px;
+	text-align:center;
+}
+h1{
+	fontsize:25px;
+	text-align:center;
+	font-weight:normal;
+}
+.event{
+	border-radius:4px;
+	color:#FFFFFF;
+	font-size:13px;
+}
+.event.listening{
+	background-color:#24B635;
+	display:block;
+}
+.event.received{
+	background-color:#2E2ED6;
+	display:none;
+}
+.blink{
+	animation:fade 3000ms infinite;
+}

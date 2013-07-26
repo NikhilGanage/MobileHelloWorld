@@ -6,13 +6,14 @@ body{
 	text-transform:uppercase;
 }
 .app{
-	background:url(../img/yagna_logo.png) no-repeat center top;
+	background:url(../img/android_icon.png) no-repeat center top;
 	position:absolute;
 	left:50%;
 	top:50%;
-	height:80px;
+	height:250px;
 	width:250px;
 	text-align:center;
+	padding:237px 0px 0px 0px;
 }
 h1{
 	fontsize:25px;
@@ -34,4 +35,5 @@ h1{
 }
 .blink{
 	animation:fade 3000ms infinite;
+	-webkit-animation:fade 3000ms infinite;
 }
